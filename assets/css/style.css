@@ -1,0 +1,60 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+/******NAVBAR******/
+
+.navbar{
+  transition: background-color 0.5s ease-in-out;
+}
+
+#menu-item0, #menu-item1, #menu-item2, #menu-item3, #menu-item4, #sandwich-menu{
+  transition: color 0.5s ease-in-out;
+}
+
+.transparent{
+  background-color: transparent !important;
+}
+
+.navbar-scrolled{
+  background-color: white !important;
+  box-shadow: 0px 0px 20px 0px #00000070 !important;
+}
+
+.sandich-white{
+  filter: brightness(0) invert(1);
+}
+
+
+#site-content{
+  background: black;
+}
+.icon-fill, .btn-viaje{
+  background-color: #0DCAF0;
+}
+
+
+.card{
+  height: 23.5em;
+  background-color: #0DCAF0;
+}
+
+/******TOOLTIP*****/
+
+.tooltip.bs-tooltip-top, .tooltip-inner{
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+}
+
+.tooltip .tooltip-arrow::before {
+  filter: brightness(0) invert(1);
+}
+
+
+/*******FOOTER*******/
+
+footer{
+  background-color: #0DCAF0;
+}
+
